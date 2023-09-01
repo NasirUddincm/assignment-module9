@@ -18,7 +18,7 @@ const handleCategorySelected = (categoryId) => {
   <div>
     <NavBar @categorySelected="handleCategorySelected" />
     <MainContent :selectedCategory="selectedCategory" />
-    <FooterComponent />
+    <FooterComponent/>
 
   </div>
 </template>

@@ -33,7 +33,7 @@ const selectCategory = (categoryId) => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <RouterLink class="nav-link active" aria-current="page" to="/">হোম</RouterLink>
+                <RouterLink class="nav-link active" aria-current="page" to="/" @click="selectCategory(1)">হোম</RouterLink>
               </li>
               <li class="nav-item" v-for="category in categories" :key="category.id">
                 <button class="nav-link" 
